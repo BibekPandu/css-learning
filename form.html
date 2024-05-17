@@ -1,0 +1,85 @@
+<form action="https://reqres.in/api/users" method="post">
+  <table cellpadding="5">
+    <tr>
+      <td>student signup form:</td>
+    </tr>
+    <tr>
+      <td>student name:<span style="color: #ff0000">*</span></td>
+      <td>
+        <input type="text" placeholder="hajur ko name" name="student_name" />
+        <br />
+        <input type="number" placeholder="number matra hai" /><br />
+        <input type="password" name="" id="" placeholder="gopya password" />
+      </td>
+    </tr>
+    <tr>
+      <td>Age:</td>
+      <td>
+        <input type="number" placeholder="age" name="student_age" />
+      </td>
+    </tr>
+    <tr>
+      <td>location:</td>
+      <td>
+        <select name="loications" id="">
+          <option value="kathmandu">kathmandu</option>
+          <option value="bhaktpur">bhaktpur</option>
+          <option value="lalitpur">lalitpur</option>
+          <option value="others">others</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>skills:</td>
+      <td>
+        <input type="checkbox" name="skill_1" id="" value="html" />html
+        <br />
+        <input type="checkbox" name="skill_2" id="" value="css" />css <br />
+        <input
+          type="checkbox"
+          name="skill_3"
+          id=""
+          value="javascript"
+        />javascript <br />
+        <input type="checkbox" name="skill_4" id="" value="python" />python
+        <br />
+      </td>
+    </tr>
+    <tr>
+      <td>day od night shift:</td>
+      <td>
+        <input type="radio" name="shift" value="day" />day
+        <input type="radio" name="shift" value="night" />night
+      </td>
+    </tr>
+    <tr>
+      <td>descriptuion</td>
+      <td>
+        <textarea
+          name="description"
+          id=""
+          placeholder="somthing about yourself"
+        ></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <input type="submit" value="signup" />
+        <button type="Reset">reset</button>
+      </td>
+    </tr>
+  </table>
+</form>
+<div>
+  <form action="https://reqres.in/api/users" method="post">
+    <legend>login to dino academy</legend>
+    Email: <br />
+    <input type="email" name="email" />
+    <br />
+    Password: <br />
+    <input type="password" name="pass" />
+    <br />
+    <input type="checkbox" />remember me
+    <input type="submit" value="signup" />
+  </form>
+</div>
