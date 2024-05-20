@@ -1,5 +1,6 @@
 * {
   font-family: "Montserrat", sans-serif;
+  margin: 0px;
 }
 
 .skill-list {
@@ -18,8 +19,14 @@
   text-align: right;
   text-decoration: underline;
 }
-.driver {
-  background: red;
-  height: 90px;
-  width: 300px;
+.page {
+  background: url("./images/apple.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+.text {
+  color: red;
+  padding: 100px;
+  text-align: center;
 }
