@@ -30,3 +30,9 @@
   padding: 100px;
   text-align: center;
 }
+.dummy {
+  background-color: red;
+  height: 300px;
+  width: 300px;
+  position: static;
+}
